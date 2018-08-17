@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lenovo.burcistan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Koc" />
+        <activity android:name=".Boga" />
+        <activity android:name=".Ikizler" />
+        <activity android:name=".Yengec" />
+        <activity android:name=".Aslan" />
+        <activity android:name=".Basak" />
+        <activity android:name=".Terazi" />
+        <activity android:name=".Akrep" />
+        <activity android:name=".Yay" />
+        <activity android:name=".Oglak" />
+        <activity android:name=".Kova" />
+        <activity android:name=".Balik" />
+    </application>
+
+</manifest>
